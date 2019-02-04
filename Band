@@ -1,0 +1,32 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<title>Favorite Music Group</title> 
+<meta charset="utf-8"> 
+</head> 
+<body>
+<h1> Panic! at the Disco </h1>
+<p>This is Panic! at the Disco offical website. Here you can find information about their tours and merch: <a href="https://panicatthedisco.com/">https://panicatthedisco.com/</a></p> 
+    <h2>Members:</h2>
+    <ul>
+        <li> Brandon Urie </li>
+        <li> Ryan Ross </li>
+        <li>Dallon Weekes </li>
+        <li>Spencer Smith</li>
+        <li>Jon Walekr </li>
+        </ul>
+<h1>My Favorite CD's </h1>
+    <dl>
+        <dt>Pray For the Wicked</dt> 
+            <dd>Theatricality has long been a part of Panic! at the Disco's DNA. 
+                Brendon Urie has infused his unique brand of emo-pop with renewed song and dance man vigor. 
+                Each track fels humongous, swirling with strings and shinhy horns and topped with Urie's now theater tested voice.</dd>
+                <blockquote></blockquote>
+                <dt>Too Weird To Live,Too Rare to Die!</dt>
+            <dd>
+                    Too Weird to Live, Too Rare to Die! is the fourth studio album by American rock band Panic! at the Disco. The album was released on October 8, 2013 on Decaydance and Fueled by Ramen. Recorded as a three-piece, the album was produced by Butch Walker, and is the first and only album to feature bassist Dallon Weekes since he officially joined the band in 2010.</dd>
+                <blockquote></blockquote>
+                    <dt>Death Of A Bachelor</dt>
+                        <dd>
+                                Death of a Bachelor is the fifth studio album by American rock band Panic! at the Disco, released January 15, 2016 on Fueled by Ramen and DCD2. It is the follow-up to the band's fourth studio album, Too Weird to Live, Too Rare to Die!, with the entire album written and recorded by vocalist/multi-instrumentalist Brendon Urie, among external writers.</dd>
+    </dl>
