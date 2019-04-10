@@ -1,0 +1,337 @@
+SET IDENTITY_INSERT dbo.CUSTOMER ON
+
+INSERT INTO CUSTOMER
+	(CustomerID, FirstName, LastName, PhoneNumber, Address,ZipCode,Email, Age, State, Country)
+	VALUES (1018,'Giraud','Grattage', '305-441-6918', '7 Fuller Parkway','33961','AlexCastro21@yahoo.com','28','FL', 'United States');
+INSERT INTO CUSTOMER
+	(CustomerID, FirstName, LastName, PhoneNumber, Address,ZipCode,Email, Age, State, Country)
+	VALUES (1020, 'Eadith','Sutherby', '703-387-6923', '3 Gale Alley','20016','esutherby0@wordpress.com','73','DC', 'United States');
+INSERT INTO CUSTOMER
+	(CustomerID, FirstName, LastName, PhoneNumber, Address,ZipCode,Email, Age, State, Country)
+	VALUES (1043, 'Frank','McGill', '517-363-8178', '633 Welch Crossing','48901','fmcgill1@cisco.com','52','MI', 'United States');
+INSERT INTO CUSTOMER
+	(CustomerID, FirstName, LastName, PhoneNumber, Address,ZipCode,Email, Age, State, Country)
+	VALUES (1019, 'Karee','Tandy', '314-722-9344', '795 Norway Maple Road','631104','ktandy2@digg.com','29','MO', 'United States');
+INSERT INTO CUSTOMER
+	(CustomerID, FirstName, LastName, PhoneNumber, Address,ZipCode,Email, Age, State, Country)
+	VALUES (1044, 'Ted','Schoolfield', '724-467-8582', '3 Montana Crossing','16107','tschoolfield3@nhs.uk','62','PA', 'United States');
+INSERT INTO CUSTOMER
+	(CustomerID, FirstName, LastName, PhoneNumber, Address,ZipCode,Email, Age, State, Country)
+	VALUES (1048, 'Raynard','Ocoskerry', '915-894-1510', '08 Homewood Place','79911','rocoskerry4@cargocollective.com','78','TX', 'United States');
+INSERT INTO CUSTOMER
+	(CustomerID, FirstName, LastName, PhoneNumber, Address,ZipCode,Email, Age, State, Country)
+	VALUES (1050, 'Lizzie','Coston', '253-505-6632', '16 Cordelia Drive','98148','lcoston5@sbwire.com','47','WA', 'United States');
+INSERT INTO CUSTOMER
+	(CustomerID, FirstName, LastName, PhoneNumber, Address,ZipCode,Email, Age, State, Country)
+	VALUES (1053, 'Karen','Dewdney', '772-786-6897', '0553 Crest Line Plaza','32964','kdewdney6@skype.com','90','FL', 'United States');
+INSERT INTO CUSTOMER
+	(CustomerID, FirstName, LastName, PhoneNumber, Address,ZipCode,Email, Age, State, Country)
+	VALUES (1058, 'Blake','Patridge', '727-278-4114', '8 Havey Hill','33710','bpatridge7@goodreads.com','55','FL', 'United States');
+INSERT INTO CUSTOMER
+	(CustomerID, FirstName, LastName, PhoneNumber, Address,ZipCode,Email, Age, State, Country)
+	VALUES (1061, 'Daisi','Danit', '619-661-2910', '9606 Center Trail','921137','ddanit8@sphinn.com','21','CA', 'United States');
+INSERT INTO CUSTOMER
+	(CustomerID, FirstName, LastName, PhoneNumber, Address,ZipCode,Email, Age, State, Country)
+	VALUES (1064, 'Rriocard','Hofer', '919-887-6452', '88 Tony Parkway','27605','rhofer9@blogtalkradio.com','54','NC', 'United States');
+INSERT INTO CUSTOMER
+	(CustomerID, FirstName, LastName, PhoneNumber, Address,ZipCode,Email, Age, State, Country)
+	VALUES (1070, 'Corrie','Seacroft', '239-314-0258', '908 Westport Plaza','33906','cseacrofta@cnn.com','67','FL', 'United States');
+INSERT INTO CUSTOMER
+	(CustomerID, FirstName, LastName, PhoneNumber, Address,ZipCode,Email, Age, State, Country)
+	VALUES (1075, 'Antonia','Morrill', '404-269-1065', '46294 Chive Alley','30351','amorrillb@mediafire.com','98','GA', 'United States');
+INSERT INTO CUSTOMER
+	(CustomerID, FirstName, LastName, PhoneNumber, Address,ZipCode,Email, Age, State, Country)
+	VALUES (1079, 'Jephthah','Marney', '214-296-6025', '9 Dennis Point','75241','jmarneyc@senate.gov','69','TX', 'United States');
+INSERT INTO CUSTOMER
+	(CustomerID, FirstName, LastName, PhoneNumber, Address,ZipCode,Email, Age, State, Country)
+	VALUES (1082, 'Kristine','Murrigan', '303-309-6953', '9 Melody Place','80045','kmurrigand@moonfruit.com','38','CO', 'United States');
+INSERT INTO CUSTOMER
+	(CustomerID, FirstName, LastName, PhoneNumber, Address,ZipCode,Email, Age, State, Country)
+	VALUES (1085, 'Page','Paula', '907-430-6245', '1 Carpenter Center','99522','ppaulae@amazon.co.uk','77','AK', 'United States');
+INSERT INTO CUSTOMER
+	(CustomerID, FirstName, LastName, PhoneNumber, Address,ZipCode,Email, Age, State, Country)
+	VALUES (1089, 'Nollie','Haldon', '314-421-9550', '238 Mayfield Alley','63169','nhaldonf@bing.com','85','MO', 'United States');
+INSERT INTO CUSTOMER
+	(CustomerID, FirstName, LastName, PhoneNumber, Address,ZipCode,Email, Age, State, Country)
+	VALUES (1091, 'Vivian','Coggings', '505-445-3414', '2 Rowland Plaza','87201','vcoggingsg@howstuffworks.com','56','NM', 'United States');
+INSERT INTO CUSTOMER
+	(CustomerID, FirstName, LastName, PhoneNumber, Address,ZipCode,Email, Age, State, Country)
+	VALUES (1094, 'Morley','Pashba', '757-357-7056', '76942 Veith Parkway','23324','mpashbah@ebay.com','77','VA', 'United States');
+INSERT INTO CUSTOMER
+	(CustomerID, FirstName, LastName, PhoneNumber, Address,ZipCode,Email, Age, State, Country)
+	VALUES (1097, 'Willie','Smithers', '202-148-7053', '22 Dixon Court','20226','wsmithersi@biglobe.ne.jp','60','DC', 'United States');
+
+SET IDENTITY_INSERT dbo.CUSTOMER OFF
+
+
+SET IDENTITY_INSERT dbo.ORDERS ON
+
+INSERT INTO ORDERS (OrderID,OrderDate,ShippingStatus,Quantity,UnitPrice,UnitPriceTotal,PaymentMethond,CustomerID)
+	VALUES (1,'2/13/2018','Order Submitted','3','38','114','Debit Card',1018);
+INSERT INTO ORDERS (OrderID,OrderDate,ShippingStatus,Quantity,UnitPrice,UnitPriceTotal,PaymentMethond,CustomerID)
+	VALUES (3,'9/20/2017','Order Submitted','5','16','80','Debit Card',1018);
+INSERT INTO ORDERS (OrderID,OrderDate,ShippingStatus,Quantity,UnitPrice,UnitPriceTotal,PaymentMethond,CustomerID)
+	VALUES (5,'11/5/2017','Order Submitted','1','60','60','Cash',1019);
+INSERT INTO ORDERS (OrderID,OrderDate,ShippingStatus,Quantity,UnitPrice,UnitPriceTotal,PaymentMethond,CustomerID)
+	VALUES (6,'12/23/2017','Order Processing ','3','38','114','CreditCard',1020);
+INSERT INTO ORDERS (OrderID,OrderDate,ShippingStatus,Quantity,UnitPrice,UnitPriceTotal,PaymentMethond,CustomerID)
+	VALUES (10,'4/1/2018','Partially Shipped','5','10','50','Gift Card',1020);
+INSERT INTO ORDERS (OrderID,OrderDate,ShippingStatus,Quantity,UnitPrice,UnitPriceTotal,PaymentMethond,CustomerID)
+	VALUES (15,'6/1/2017','Shipped','3','38','114','Debit Card',1043);
+INSERT INTO ORDERS (OrderID,OrderDate,ShippingStatus,Quantity,UnitPrice,UnitPriceTotal,PaymentMethond,CustomerID)
+	VALUES (16,'7/11/2017','Order Processing','7','20','140','Cash',1043);
+INSERT INTO ORDERS (OrderID,OrderDate,ShippingStatus,Quantity,UnitPrice,UnitPriceTotal,PaymentMethond,CustomerID)
+	VALUES (18,'2/13/2018','Partially Shipped','1','80','80','Cash',1043);
+INSERT INTO ORDERS (OrderID,OrderDate,ShippingStatus,Quantity,UnitPrice,UnitPriceTotal,PaymentMethond,CustomerID)
+	VALUES (20,'1/15/2018','Shipped','2','40','82.48','Debit Card',1044);
+INSERT INTO ORDERS (OrderID,OrderDate,ShippingStatus,Quantity,UnitPrice,UnitPriceTotal,PaymentMethond,CustomerID)
+	VALUES (22,'6/27/2017','Order Submitted','4','30','127.5','CreditCard',1048);
+INSERT INTO ORDERS (OrderID,OrderDate,ShippingStatus,Quantity,UnitPrice,UnitPriceTotal,PaymentMethond,CustomerID)
+	VALUES (30,'10/18/2017','Shipped','2','45','90.20','Debit Card',1050);
+INSERT INTO ORDERS (OrderID,OrderDate,ShippingStatus,Quantity,UnitPrice,UnitPriceTotal,PaymentMethond,CustomerID)
+	VALUES (34,'7/6/2017','Order Processing','1','220.50','220.50','Gift Card',1053);
+INSERT INTO ORDERS (OrderID,OrderDate,ShippingStatus,Quantity,UnitPrice,UnitPriceTotal,PaymentMethond,CustomerID)
+	VALUES (36,'11/21/2017','Partially Shipped','10','6.20','62','Debit Card',1053);
+INSERT INTO ORDERS (OrderID,OrderDate,ShippingStatus,Quantity,UnitPrice,UnitPriceTotal,PaymentMethond,CustomerID)
+	VALUES (40,'12/6/2017','Order Processing','7','20','150','Debit Card',1058);
+INSERT INTO ORDERS (OrderID,OrderDate,ShippingStatus,Quantity,UnitPrice,UnitPriceTotal,PaymentMethond,CustomerID)
+	VALUES (42,'7/14/2017','Order Processing','125','2','250','PayPal',1061);
+INSERT INTO ORDERS (OrderID,OrderDate,ShippingStatus,Quantity,UnitPrice,UnitPriceTotal,PaymentMethond,CustomerID)
+	VALUES (45,'10/14/2017','Shipped','15','2.99','44.85','PayPal',1064);
+INSERT INTO ORDERS (OrderID,OrderDate,ShippingStatus,Quantity,UnitPrice,UnitPriceTotal,PaymentMethond,CustomerID)
+	VALUES (48,'6/2/2017','Order Processing','6','5.50','33','Cash',1070);
+INSERT INTO ORDERS (OrderID,OrderDate,ShippingStatus,Quantity,UnitPrice,UnitPriceTotal,PaymentMethond,CustomerID)
+	VALUES (50,'3/18/2018','Shipped','11','15.99','175.89','Debit Card',1075);
+INSERT INTO ORDERS (OrderID,OrderDate,ShippingStatus,Quantity,UnitPrice,UnitPriceTotal,PaymentMethond,CustomerID)
+	VALUES (53,'5/13/2017','Shipped','4','23.25','93','Gift Card',1075);
+INSERT INTO ORDERS (OrderID,OrderDate,ShippingStatus,Quantity,UnitPrice,UnitPriceTotal,PaymentMethond,CustomerID)
+	VALUES (58,'10/5/2017','Partially Shipped','3','12.25','36.75','PayPal',1079);
+
+SET IDENTITY_INSERT dbo.ORDERS OFF
+
+
+SET IDENTITY_INSERT dbo.PRODUCTS ON 
+
+INSERT INTO PRODUCTS (ProductsID,Genre,ListPrice,Condition,Weights,Supplier,UnitOnOrder,UnitInStock,ProductName,OrderID)
+	VALUES (100,'Sport','60.00','New','0.75','Gulgowski Inc','36','87','FIFA 18',1);
+INSERT INTO PRODUCTS (ProductsID,Genre,ListPrice,Condition,Weights,Supplier,UnitOnOrder,UnitInStock,ProductName,OrderID)
+	VALUES (103,'Sport','45.00','Used','0.75','EA Sports','3','100','NBA 2K17',3);
+INSERT INTO PRODUCTS (ProductsID,Genre,ListPrice,Condition,Weights,Supplier,UnitOnOrder,UnitInStock,ProductName,OrderID)
+	VALUES (105,'Sport','70.00','New','0.80','EA Sports','69','50','NFL 18',5);
+INSERT INTO PRODUCTS (ProductsID,Genre,ListPrice,Condition,Weights,Supplier,UnitOnOrder,UnitInStock,ProductName,OrderID)
+	VALUES (110,'Sport','30.00','Used','0.60','EA Sports','82','65','MLB 15',5);
+INSERT INTO PRODUCTS (ProductsID,Genre,ListPrice,Condition,Weights,Supplier,UnitOnOrder,UnitInStock,ProductName,OrderID)
+	VALUES (112,'Shooter','60.00','New','0.50','Infintinty Ward','4','23','Call of Duty 4',6);
+INSERT INTO PRODUCTS (ProductsID,Genre,ListPrice,Condition,Weights,Supplier,UnitOnOrder,UnitInStock,ProductName,OrderID)
+	VALUES (114,'Shooter','25.00','Used','0.45','Tri Arch','71','88','Call of Duty Black Ops 3',10);
+INSERT INTO PRODUCTS (ProductsID,Genre,ListPrice,Condition,Weights,Supplier,UnitOnOrder,UnitInStock,ProductName,OrderID)
+	VALUES (116,'Console','225.50','New','4.50','Sony','10','50','PS4',15);
+INSERT INTO PRODUCTS (ProductsID,Genre,ListPrice,Condition,Weights,Supplier,UnitOnOrder,UnitInStock,ProductName,OrderID)
+	VALUES (118,'Console','110.00','New','5.25','Sony','3','10','PS3',15);
+INSERT INTO PRODUCTS (ProductsID,Genre,ListPrice,Condition,Weights,Supplier,UnitOnOrder,UnitInStock,ProductName,OrderID)
+	VALUES (120,'Console','250.00','New','4.25','Microsoft','43','20','Xbox One',16);
+INSERT INTO PRODUCTS (ProductsID,Genre,ListPrice,Condition,Weights,Supplier,UnitOnOrder,UnitInStock,ProductName,OrderID)
+	VALUES (122,'Console','50.50','Used','3.75','Microsoft','2','10','Xbox 360',18);
+INSERT INTO PRODUCTS (ProductsID,Genre,ListPrice,Condition,Weights,Supplier,UnitOnOrder,UnitInStock,ProductName,OrderID)
+	VALUES (125,'Role Playing','35.00','Used','0.75','Unreal Inc','4','32','Skyrim',20);
+INSERT INTO PRODUCTS (ProductsID,Genre,ListPrice,Condition,Weights,Supplier,UnitOnOrder,UnitInStock,ProductName,OrderID)
+	VALUES (127,'Adventure','20.00','New','0.30','Microsoft','2','12','Minecraft',22);
+INSERT INTO PRODUCTS (ProductsID,Genre,ListPrice,Condition,Weights,Supplier,UnitOnOrder,UnitInStock,ProductName,OrderID)
+	VALUES (128,'Role Playing','50.00','New','0.65','Hill Inc','20','5','Witcher 3',30);
+INSERT INTO PRODUCTS (ProductsID,Genre,ListPrice,Condition,Weights,Supplier,UnitOnOrder,UnitInStock,ProductName,OrderID)
+	VALUES (130,'Action RPG','40.00','New','0.10','Bilzzard','10','15','Diablo 3',34)
+INSERT INTO PRODUCTS (ProductsID,Genre,ListPrice,Condition,Weights,Supplier,UnitOnOrder,UnitInStock,ProductName,OrderID)
+	VALUES (132,'Action RPG','59.99','New','0.10','FromSupplier','32','46','Dark Soul 3',34);
+INSERT INTO PRODUCTS (ProductsID,Genre,ListPrice,Condition,Weights,Supplier,UnitOnOrder,UnitInStock,ProductName,OrderID)
+	VALUES (135,'Racing','59.99','New','0.65','Polyphony Digital','23','31','Gran Turismo Sport',36);
+INSERT INTO PRODUCTS (ProductsID,Genre,ListPrice,Condition,Weights,Supplier,UnitOnOrder,UnitInStock,ProductName,OrderID)
+	VALUES (140,'Racing','50.00','Used','0.45','Microsoft','3','10','Forza Horizon 3',40);
+INSERT INTO PRODUCTS (ProductsID,Genre,ListPrice,Condition,Weights,Supplier,UnitOnOrder,UnitInStock,ProductName,OrderID)
+	VALUES (145,'MMO','35.00','New','0.20','Blizzard','2','43','World of Warcraft',42);
+INSERT INTO PRODUCTS (ProductsID,Genre,ListPrice,Condition,Weights,Supplier,UnitOnOrder,UnitInStock,ProductName,OrderID)
+	VALUES (150,'Survival','20.00','New','0.10','Studio WildCard','4','9','Ark: Survival Evolved',45);
+INSERT INTO PRODUCTS (ProductsID,Genre,ListPrice,Condition,Weights,Supplier,UnitOnOrder,UnitInStock,ProductName,OrderID)
+	VALUES (152,'Shooter','25.00','New','0.05','Steam','12','34','CS:GO',48);
+
+
+SET IDENTITY_INSERT dbo.PRODUCTS OFF 
+
+SET IDENTITY_INSERT dbo.LOCATION ON
+
+
+INSERT INTO LOCATION (LocationID,State,City,Region,County,ZipCode,Address)
+	VALUES(500,'MN','Minneapolis','South','Lake County','55436','81905 Sutterridge Trail');
+INSERT INTO LOCATION (LocationID,State,City,Region,County,ZipCode,Address)
+	VALUES(503,'TX','Corpus Christ','South','Rock County','78475','77756 Burrows Avenue');
+INSERT INTO LOCATION (LocationID,State,City,Region,County,ZipCode,Address)
+	VALUES(506,'TX','Laredo','South','Old County','78044','03 Tennyson Alley');
+INSERT INTO LOCATION (LocationID,State,City,Region,County,ZipCode,Address)
+	VALUES(510,'CA','Los Angeles','West','Fox County','90020','6654 Oxford Circle');
+INSERT INTO LOCATION (LocationID,State,City,Region,County,ZipCode,Address)
+	VALUES(512,'GA','Atlanta','MidWest','Bay County','31165','9 Crownhardt Lane');
+INSERT INTO LOCATION (LocationID,State,City,Region,County,ZipCode,Address)
+	VALUES(514,'AL','Birmingham','South','Nice County','35215','2377 Red Cloud Street');
+INSERT INTO LOCATION (LocationID,State,City,Region,County,ZipCode,Address)
+	VALUES(520,'TX','Dallas','South','South County','75310','165 Crowley Street');
+INSERT INTO LOCATION (LocationID,State,City,Region,County,ZipCode,Address)
+	VALUES(522,'IA','Davenport','West','West County','52804','34 Coolidge Center');
+INSERT INTO LOCATION (LocationID,State,City,Region,County,ZipCode,Address)
+	VALUES(525,'OH','Dayton','MidWest','Gold County','45419','99 Alpine Trail');
+INSERT INTO LOCATION (LocationID,State,City,Region,County,ZipCode,Address)
+	VALUES(527,'AZ','Phoenix','West','Round County','85072','7580 Di Loreto Trail');
+INSERT INTO LOCATION (LocationID,State,City,Region,County,ZipCode,Address)
+	VALUES(529,'TN','Murfreesboro','South','Nice County','371131','0326 Lake View');
+INSERT INTO LOCATION (LocationID,State,City,Region,County,ZipCode,Address)
+	VALUES(530,'HI','Honolulu','West','Beach County','96820','3251 Banding Avenue');
+INSERT INTO LOCATION (LocationID,State,City,Region,County,ZipCode,Address)
+	VALUES(532,'NY','New York City','Northeast','High County','10029','254 Pankratz Point');
+INSERT INTO LOCATION (LocationID,State,City,Region,County,ZipCode,Address)
+	VALUES(534,'MO','Springfield','MidWest','Spring County','65820','9320 Raven Terrace');
+INSERT INTO LOCATION (LocationID,State,City,Region,County,ZipCode,Address)
+	VALUES(536,'NV','Reno','West','Dry County','89505','2624 Ronald Regan Point');
+INSERT INTO LOCATION (LocationID,State,City,Region,County,ZipCode,Address)
+	VALUES(538,'VA','Roanoke','South','Vine County','24004','5947 Nobel Point');
+INSERT INTO LOCATION (LocationID,State,City,Region,County,ZipCode,Address)
+	VALUES(540,'TX','Fort Worth','South','Worth County','76134','0844 Ohio Point');
+INSERT INTO LOCATION (LocationID,State,City,Region,County,ZipCode,Address)
+	VALUES(542,'DE','Newark','West','Nobel County','19714','2215 Grasskamp Drive');
+INSERT INTO LOCATION (LocationID,State,City,Region,County,ZipCode,Address)
+	VALUES(545,'IL','Mundelein','MidWest','Far County','74156','5997 Bay Circle');
+INSERT INTO LOCATION (LocationID,State,City,Region,County,ZipCode,Address)
+	VALUES(550,'NY','Buffalo','Northeast','East County','14233','961 Meadow Vale Circle');
+
+SET IDENTITY_INSERT dbo.LOCATION OFF
+
+INSERT INTO PRODUCTS_LOCATION_INT 
+	VALUES(100,500)
+INSERT INTO PRODUCTS_LOCATION_INT 
+	VALUES(100,503);
+INSERT INTO PRODUCTS_LOCATION_INT 
+	VALUES(100,506); 
+INSERT INTO PRODUCTS_LOCATION_INT 
+	VALUES(103,510);
+INSERT INTO PRODUCTS_LOCATION_INT 
+	VALUES(103,512);
+INSERT INTO PRODUCTS_LOCATION_INT 
+	VALUES(105,512);   
+INSERT INTO PRODUCTS_LOCATION_INT 
+	VALUES(110, 514);
+INSERT INTO PRODUCTS_LOCATION_INT 
+	VALUES(100,500);
+INSERT INTO PRODUCTS_LOCATION_INT 
+	VALUES(100,520);
+INSERT INTO PRODUCTS_LOCATION_INT 
+	VALUES(100,522);
+INSERT INTO PRODUCTS_LOCATION_INT 
+	VALUES(114,525);
+INSERT INTO PRODUCTS_LOCATION_INT 
+	VALUES(114,527);
+INSERT INTO PRODUCTS_LOCATION_INT 
+	VALUES(114,529);
+INSERT INTO PRODUCTS_LOCATION_INT 
+	VALUES(116,530);
+INSERT INTO PRODUCTS_LOCATION_INT 
+	VALUES(118,520);
+INSERT INTO PRODUCTS_LOCATION_INT 
+	VALUES(118,532);
+INSERT INTO PRODUCTS_LOCATION_INT 
+	VALUES(120,522);
+INSERT INTO PRODUCTS_LOCATION_INT 
+	VALUES(120,534); 
+INSERT INTO PRODUCTS_LOCATION_INT 
+	VALUES(122,534); 
+INSERT INTO PRODUCTS_LOCATION_INT 
+	VALUES(127,538);
+INSERT INTO PRODUCTS_LOCATION_INT 
+	VALUES(125,540);          
+
+SET IDENTITY_INSERT dbo.DEPARTMENT ON
+
+INSERT INTO DEPARTMENT (DepartmentID,DeptAbbr,DeptName,LocationID)
+	VALUES(200,'R&D','Research and Develop',500);
+INSERT INTO DEPARTMENT (DepartmentID,DeptAbbr,DeptName,LocationID)
+	VALUES(201,'PROD','Production',500);
+INSERT INTO DEPARTMENT (DepartmentID,DeptAbbr,DeptName,LocationID)
+	VALUES(203,'ACCY','Accounting',503);
+INSERT INTO DEPARTMENT (DepartmentID,DeptAbbr,DeptName,LocationID)
+	VALUES(205,'FINA','Finance',506);
+INSERT INTO DEPARTMENT (DepartmentID,DeptAbbr,DeptName,LocationID)
+	VALUES(206,'MKTG','Marketing',506);
+INSERT INTO DEPARTMENT (DepartmentID,DeptAbbr,DeptName,LocationID)
+	VALUES(210,'R.M','Resource Management',510);
+INSERT INTO DEPARTMENT (DepartmentID,DeptAbbr,DeptName,LocationID)
+	VALUES(212,'R&D','Research and Develop',512);
+INSERT INTO DEPARTMENT (DepartmentID,DeptAbbr,DeptName,LocationID)
+	VALUES(214,'Pur.','Purchasing',512);
+INSERT INTO DEPARTMENT (DepartmentID,DeptAbbr,DeptName,LocationID)
+	VALUES(216,'ACCY','Accounting',512);
+INSERT INTO DEPARTMENT (DepartmentID,DeptAbbr,DeptName,LocationID)
+	VALUES(218,'PROD','Production',514);
+INSERT INTO DEPARTMENT (DepartmentID,DeptAbbr,DeptName,LocationID)
+	VALUES(220,'MKTG','Marketing',500);
+INSERT INTO DEPARTMENT (DepartmentID,DeptAbbr,DeptName,LocationID)
+	VALUES(224,'FINA','Finance',520);
+INSERT INTO DEPARTMENT (DepartmentID,DeptAbbr,DeptName,LocationID)
+	VALUES(228,'Pur.','Purchasing',520);
+INSERT INTO DEPARTMENT (DepartmentID,DeptAbbr,DeptName,LocationID)
+	VALUES(230,'ACCY','Accounting',522);
+INSERT INTO DEPARTMENT (DepartmentID,DeptAbbr,DeptName,LocationID)
+	VALUES(235,'R&D','Research and Develop',525);
+INSERT INTO DEPARTMENT (DepartmentID,DeptAbbr,DeptName,LocationID)
+	VALUES(237,'ACCY','Accounting',527);
+INSERT INTO DEPARTMENT (DepartmentID,DeptAbbr,DeptName,LocationID)
+	VALUES(240,'PROD','Production',529);
+INSERT INTO DEPARTMENT (DepartmentID,DeptAbbr,DeptName,LocationID)
+	VALUES(242,'MKTG','Marketing',529);
+INSERT INTO DEPARTMENT (DepartmentID,DeptAbbr,DeptName,LocationID)
+	VALUES(244,'R.M','Resource Management',530);
+INSERT INTO DEPARTMENT (DepartmentID,DeptAbbr,DeptName,LocationID)
+	VALUES(248,'Pur.','Purchasing',512);
+
+SET IDENTITY_INSERT dbo.DEPARTMENT OFF
+
+
+SET IDENTITY_INSERT dbo.EMPLOYEE ON
+
+INSERT INTO EMPLOYEE(EmployeeID,FirstName,LastName,DateOfBirth,SSN,Sex,Title,Email,HireDate,Salary,DepartmentID)
+	VALUES(300,'Jose','Castro','1985','345-32-9821','Male','Store Manager','Josecastro10@yahoo.com','4/12/2017','32000.00',200);
+INSERT INTO EMPLOYEE(EmployeeID,FirstName,LastName,DateOfBirth,SSN,Sex,Title,Email,HireDate,Salary,DepartmentID)
+	VALUES(302,'Jacob','Bonilla','1995','214-21-7834','Male','Retail Stuff','Jbonilla20@yahoo.com','1/12/2014','12000.00',201);
+INSERT INTO EMPLOYEE(EmployeeID,FirstName,LastName,DateOfBirth,SSN,Sex,Title,Email,HireDate,Salary,DepartmentID)
+	VALUES(304,'Vianey','Valencia','1980','934-12-3864','Female','Senior Manager','vvalencia10@gmail.com','3/15/2010','65000.00',203);
+INSERT INTO EMPLOYEE(EmployeeID,FirstName,LastName,DateOfBirth,SSN,Sex,Title,Email,HireDate,Salary,DepartmentID)
+	VALUES(308,'Karla','Garcia','1997','108-43-1095','Female','Retail Stuff','Kgarcia123@gmail.com','8/27/2017','12000.00',203);
+INSERT INTO EMPLOYEE(EmployeeID,FirstName,LastName,DateOfBirth,SSN,Sex,Title,Email,HireDate,Salary,DepartmentID)
+	VALUES(310,'Adrian','Avila','1990','198-56-1827','Male','Senior Game Advisor','AdriaA476@apple.com','5/10/2015','40000.00',205);
+INSERT INTO EMPLOYEE(EmployeeID,FirstName,LastName,DateOfBirth,SSN,Sex,Title,Email,HireDate,Salary,DepartmentID)
+	VALUES(312,'Kevin','Diaz','2000','196-31-3892','Male','Game Advisor','KevinD756@yahoo.com','3/21/2018','15000.00',206);
+INSERT INTO EMPLOYEE(EmployeeID,FirstName,LastName,DateOfBirth,SSN,Sex,Title,Email,HireDate,Salary,DepartmentID)
+	VALUES(314,'Carl','Nyquist','1996','275-10-7528','Male','Store Manager','Cnyquist25@ask.com','4/5/2012','35000.00',210);
+INSERT INTO EMPLOYEE(EmployeeID,FirstName,LastName,DateOfBirth,SSN,Sex,Title,Email,HireDate,Salary,DepartmentID)
+	VALUES(316,'Hector','Ruiz','1993','245-94-1459','Male','Retail Staff','HectorR00857@apple.com','3/17/2015','40000.00',210);
+INSERT INTO EMPLOYEE(EmployeeID,FirstName,LastName,DateOfBirth,SSN,Sex,Title,Email,HireDate,Salary,DepartmentID)
+	VALUES(318,'Nora','Shuck','1994','956-14-8461','Female','Sales Associate','NShuck015@gmail.com','10/21/2014','42000.00',212);
+INSERT INTO EMPLOYEE(EmployeeID,FirstName,LastName,DateOfBirth,SSN,Sex,Title,Email,HireDate,Salary,DepartmentID)
+	VALUES(320,'Katie','Thrope','1985','946-87-1075','Female','Game Advisor','KateT847@gmail.com','3/25/2016','20000.00',214);
+INSERT INTO EMPLOYEE(EmployeeID,FirstName,LastName,DateOfBirth,SSN,Sex,Title,Email,HireDate,Salary,DepartmentID)
+	VALUES(324,'Nick','Gags','1974','846-948-1063','Male','Sales Associate','NickG4973@yahoo.com','1/18/2014','42000.00',214);
+INSERT INTO EMPLOYEE(EmployeeID,FirstName,LastName,DateOfBirth,SSN,Sex,Title,Email,HireDate,Salary,DepartmentID)
+	VALUES(326,'Niki','Ortega','1992','104-30-1064','Female','Senior Manager','NikiO1456@yahoo.com','1/24/2010','65000.00',216);
+INSERT INTO EMPLOYEE(EmployeeID,FirstName,LastName,DateOfBirth,SSN,Sex,Title,Email,HireDate,Salary,DepartmentID)
+	VALUES(328,'Eddy','Porta','2001','965-32-1054','Male','Retail Staff','EddyP1057@yahoo.com','1/18/2018','12000.00',218);
+INSERT INTO EMPLOYEE(EmployeeID,FirstName,LastName,DateOfBirth,SSN,Sex,Title,Email,HireDate,Salary,DepartmentID)
+	VALUES(330,'Dshawn','Louise','1993','298-32-1084','Male','Senior Game Advisor','dlouise957@apple.com','7/30/2014','40000.00',220);
+INSERT INTO EMPLOYEE(EmployeeID,FirstName,LastName,DateOfBirth,SSN,Sex,Title,Email,HireDate,Salary,DepartmentID)
+	VALUES(332,'Danielle','Hursey','1995','947-19-9372','Female','Retail Staff','DHursey1053@yahoo.com','9/27/2017','12000.00',220);
+INSERT INTO EMPLOYEE(EmployeeID,FirstName,LastName,DateOfBirth,SSN,Sex,Title,Email,HireDate,Salary,DepartmentID)
+	VALUES(334,'Ramon','RItz','1998','903-49-1937','Male','Retail Staff','RRitz195@gmail.com','1/27/2018','12000.00',224);
+INSERT INTO EMPLOYEE(EmployeeID,FirstName,LastName,DateOfBirth,SSN,Sex,Title,Email,HireDate,Salary,DepartmentID)
+	VALUES(338,'Alex','Kazmer','2000','483-93-5084','Male','Store Manager','AlexKazmer14@yahoo.com','4/21/2013','32000.00',228);
+INSERT INTO EMPLOYEE(EmployeeID,FirstName,LastName,DateOfBirth,SSN,Sex,Title,Email,HireDate,Salary,DepartmentID)
+	VALUES(340,'Sarah','Gannon','1992','476-83-5930','Female','Game Advisor','Sgannon837@gmail.com','7/28/2016','20000.00',230);
+INSERT INTO EMPLOYEE(EmployeeID,FirstName,LastName,DateOfBirth,SSN,Sex,Title,Email,HireDate,Salary,DepartmentID)
+	VALUES(344,'Bridget','Maknis','1978','206-56-9473','Female','Senior Manager','BridgetM3759@yahoo.com','3/10/2010','65000.00',235);
+INSERT INTO EMPLOYEE(EmployeeID,FirstName,LastName,DateOfBirth,SSN,Sex,Title,Email,HireDate,Salary,DepartmentID)
+	VALUES(346,'Noah','Benson','1996','473-795-6002','Male','Game Advisor','Noahthebenson1958@gmail.com','6/23/2016','15000.00',237);
+
+	 
