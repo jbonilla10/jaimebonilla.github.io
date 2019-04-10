@@ -1,0 +1,19 @@
+.column {
+    float:left;
+    width: 32%;
+    border:2px blue;
+    border-style:solid;
+    margin: 3px;
+    height:500px;
+}
+.row:after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.column-new{
+    float:left;
+    width: 32%;
+    margin: 3px;
+}
